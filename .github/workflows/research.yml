@@ -1,0 +1,73 @@
+name: ETF paper research
+
+on:
+  schedule:
+    # 21:30 UTC is after the regular U.S. close throughout daylight and standard time.
+    - cron: '30 21 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: etf-paper-research
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Synchronize before scanning
+        run: |
+          git pull --ff-only origin "${GITHUB_REF_NAME}"
+          echo "SCAN_BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Verify hard safety boundary
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          cfg = json.load(open('config/settings.json'))
+          if cfg.get('mode') != 'PAPER_RESEARCH_ONLY': sys.exit('Wrong mode')
+          if cfg.get('paper_only') is not True: sys.exit('paper_only must be true')
+          if cfg.get('live_trading_enabled') is not False: sys.exit('live trading must be false')
+          print('Paper-only boundary confirmed')
+          PY
+
+      - name: Test
+        run: |
+          python -m pip install -r requirements.txt --quiet
+          python -m pytest -q
+
+      - name: Run end-of-day research
+        run: python -m src.run_scan
+
+      - name: Persist paper state safely
+        run: python scripts/persist.py
+
+  deploy:
+    needs: scan
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - uses: actions/deploy-pages@v4

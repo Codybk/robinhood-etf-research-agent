@@ -1,0 +1,24 @@
+{
+  "mode": "PAPER_RESEARCH_ONLY",
+  "paper_only": true,
+  "live_trading_enabled": false,
+  "starting_cash": 10000.0,
+  "evaluation_days": 30,
+  "universe": {
+    "SPY": "U.S. large-cap stocks",
+    "QQQ": "Nasdaq-100 growth stocks",
+    "IWM": "U.S. small-cap stocks",
+    "TLT": "Long-term U.S. Treasuries",
+    "GLD": "Gold"
+  },
+  "max_positions": 3,
+  "target_position_pct": 0.25,
+  "minimum_cash_pct": 0.10,
+  "hypothetical_slippage_pct": 0.0005,
+  "techniques_total": 100,
+  "technique_families": 10,
+  "family_bullish_threshold": 0.60,
+  "entry_bullish_families": 6,
+  "exit_bullish_families": 3,
+  "exit_momentum_threshold": -0.05
+}
