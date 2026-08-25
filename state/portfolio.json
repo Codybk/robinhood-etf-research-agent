@@ -1,0 +1,60 @@
+{
+  "cash": 3182.5487884521485,
+  "equity_history": [
+    {
+      "cash": 3182.5487884521485,
+      "date": "2026-08-25",
+      "equity": 9996.592977905273
+    }
+  ],
+  "last_market_date": "2026-08-25",
+  "positions": {
+    "IWM": {
+      "cost": 2388.0733227539063,
+      "opened": "2026-08-25",
+      "paper_entry_price": 298.5091653442383,
+      "shares": 8
+    },
+    "QQQ": {
+      "cost": 2132.2698868103025,
+      "opened": "2026-08-25",
+      "paper_entry_price": 710.7566289367676,
+      "shares": 3
+    },
+    "SPY": {
+      "cost": 2297.1080019836427,
+      "opened": "2026-08-25",
+      "paper_entry_price": 765.7026673278808,
+      "shares": 3
+    }
+  },
+  "trades": [
+    {
+      "date": "2026-08-25",
+      "market_price": 710.4014282226562,
+      "paper_price": 710.7566289367676,
+      "reason": "9/10 independent technique families passed; ranked by family agreement then momentum",
+      "shares": 3,
+      "side": "PAPER_BUY",
+      "symbol": "QQQ"
+    },
+    {
+      "date": "2026-08-25",
+      "market_price": 765.3200073242188,
+      "paper_price": 765.7026673278808,
+      "reason": "9/10 independent technique families passed; ranked by family agreement then momentum",
+      "shares": 3,
+      "side": "PAPER_BUY",
+      "symbol": "SPY"
+    },
+    {
+      "date": "2026-08-25",
+      "market_price": 298.3599853515625,
+      "paper_price": 298.5091653442383,
+      "reason": "9/10 independent technique families passed; ranked by family agreement then momentum",
+      "shares": 8,
+      "side": "PAPER_BUY",
+      "symbol": "IWM"
+    }
+  ]
+}

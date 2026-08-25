@@ -1,0 +1,19 @@
+{
+  "audit": {
+    "ok": true,
+    "records": 4,
+    "tip": "6bf9e76362a5c1ebd1a33aad9c93552c3a2870366d94b23213b7fbf29f92be04"
+  },
+  "duplicate_market_day": false,
+  "live_trading_enabled": false,
+  "market_date": "2026-08-25",
+  "paper_only": true,
+  "providers": {
+    "GLD": "Yahoo Finance chart",
+    "IWM": "Yahoo Finance chart",
+    "QQQ": "Yahoo Finance chart",
+    "SPY": "Yahoo Finance chart",
+    "TLT": "Yahoo Finance chart"
+  },
+  "run_at": "2026-08-25T14:14:23.786775+00:00"
+}
