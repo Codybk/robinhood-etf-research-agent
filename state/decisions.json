@@ -246,5 +246,36 @@
     ],
     "market_date": "2026-09-04",
     "run_at": "2026-09-04T21:38:18.607150+00:00"
+  },
+  {
+    "items": [
+      {
+        "action": "HOLD_OR_WATCH",
+        "explanation": "HOLD/WATCH: position remains open because neither exit rule fired Close $765.96 is above the 200-day average ($710.43); the 50-day average ($757.60) is above it; 20-day momentum is -0.9%; RSI(14) is 48.5. Across 100 techniques, 81 are bullish and 9/10 independent families pass. Family scores: absolute_momentum 90%, conditioned_reversal 60%, drawdown_control 100%, dual_ema 100%, dual_sma 100%, high_proximity 100%, price_sma 90%, range_breakout 0%, risk_adjusted_momentum 80%, volatility_regime 90%.",
+        "symbol": "SPY"
+      },
+      {
+        "action": "HOLD_OR_WATCH",
+        "explanation": "HOLD/WATCH: position remains open because neither exit rule fired Close $718.36 is above the 200-day average ($657.40); the 50-day average ($711.32) is above it; 20-day momentum is -0.3%; RSI(14) is 50.7. Across 100 techniques, 76 are bullish and 8/10 independent families pass. Family scores: absolute_momentum 90%, conditioned_reversal 30%, drawdown_control 100%, dual_ema 100%, dual_sma 100%, high_proximity 90%, price_sma 100%, range_breakout 0%, risk_adjusted_momentum 70%, volatility_regime 80%.",
+        "symbol": "QQQ"
+      },
+      {
+        "action": "HOLD_OR_WATCH",
+        "explanation": "HOLD/WATCH: position remains open because neither exit rule fired Close $294.67 is above the 200-day average ($272.29); the 50-day average ($296.91) is above it; 20-day momentum is -1.8%; RSI(14) is 40.2. Across 100 techniques, 70 are bullish and 8/10 independent families pass. Family scores: absolute_momentum 90%, conditioned_reversal 60%, drawdown_control 100%, dual_ema 70%, dual_sma 80%, high_proximity 90%, price_sma 50%, range_breakout 0%, risk_adjusted_momentum 80%, volatility_regime 80%.",
+        "symbol": "IWM"
+      },
+      {
+        "action": "HOLD_OR_WATCH",
+        "explanation": "HOLD/WATCH: no entry because 2/10 bullish families did not satisfy the 6/10 requirement or the 200-day trend filter Close $82.20 is below the 200-day average ($84.57); the 50-day average ($82.85) is below it; 20-day momentum is +0.6%; RSI(14) is 57.9. Across 100 techniques, 24 are bullish and 2/10 independent families pass. Family scores: absolute_momentum 10%, conditioned_reversal 0%, drawdown_control 100%, dual_ema 0%, dual_sma 0%, high_proximity 70%, price_sma 20%, range_breakout 0%, risk_adjusted_momentum 0%, volatility_regime 40%.",
+        "symbol": "TLT"
+      },
+      {
+        "action": "HOLD_OR_WATCH",
+        "explanation": "HOLD/WATCH: no entry because 0/10 bullish families did not satisfy the 6/10 requirement or the 200-day trend filter Close $399.72 is below the 200-day average ($415.56); the 50-day average ($389.40) is below it; 20-day momentum is -0.7%; RSI(14) is 50.7. Across 100 techniques, 29 are bullish and 0/10 independent families pass. Family scores: absolute_momentum 50%, conditioned_reversal 0%, drawdown_control 50%, dual_ema 50%, dual_sma 50%, high_proximity 10%, price_sma 30%, range_breakout 0%, risk_adjusted_momentum 20%, volatility_regime 30%.",
+        "symbol": "GLD"
+      }
+    ],
+    "market_date": "2026-09-08",
+    "run_at": "2026-09-08T21:38:40.441933+00:00"
   }
 ]
