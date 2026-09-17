@@ -1,5 +1,5 @@
 {
-  "cash": 3175.6930281982427,
+  "cash": 3173.4095882568363,
   "equity_history": [
     {
       "cash": 3182.5487884521485,
@@ -75,14 +75,19 @@
       "cash": 3175.6930281982427,
       "date": "2026-09-16",
       "equity": 9823.363011108398
+    },
+    {
+      "cash": 3173.4095882568363,
+      "date": "2026-09-17",
+      "equity": 9895.409405151368
     }
   ],
-  "last_market_date": "2026-09-16",
+  "last_market_date": "2026-09-17",
   "positions": {
     "IWM": {
-      "cost": 2272.495787475586,
-      "opened": "2026-09-16",
-      "paper_entry_price": 284.06197343444825,
+      "cost": 2284.581661376953,
+      "opened": "2026-09-17",
+      "paper_entry_price": 285.5727076721191,
       "shares": 8
     },
     "QQQ": {
@@ -178,6 +183,25 @@
       "date": "2026-09-16",
       "market_price": 283.9200134277344,
       "paper_price": 284.06197343444825,
+      "reason": "7/10 independent technique families passed; ranked by family agreement then momentum",
+      "shares": 8,
+      "side": "PAPER_BUY",
+      "symbol": "IWM"
+    },
+    {
+      "date": "2026-09-17",
+      "market_price": 285.42999267578125,
+      "paper_pnl": 9.802433959961036,
+      "paper_price": 285.2872776794434,
+      "reason": "20-day momentum reached -5.2%",
+      "shares": 8,
+      "side": "PAPER_SELL",
+      "symbol": "IWM"
+    },
+    {
+      "date": "2026-09-17",
+      "market_price": 285.42999267578125,
+      "paper_price": 285.5727076721191,
       "reason": "7/10 independent technique families passed; ranked by family agreement then momentum",
       "shares": 8,
       "side": "PAPER_BUY",
