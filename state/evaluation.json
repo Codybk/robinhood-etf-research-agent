@@ -1,8 +1,8 @@
 {
-  "complete": false,
+  "complete": true,
   "duration_days": 30,
-  "elapsed_days": 29.309,
-  "market_days_observed": 20,
-  "runs_observed": 22,
+  "elapsed_days": 30.308,
+  "market_days_observed": 21,
+  "runs_observed": 23,
   "started_at": "2026-08-25T14:14:23.786775+00:00"
 }
