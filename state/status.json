@@ -4,7 +4,7 @@
     "records": 49,
     "tip": "5246766b2c3865be70689744d7c6dac78d34c83bce6543ec4e57f428118d9c16"
   },
-  "duplicate_market_day": false,
+  "duplicate_market_day": true,
   "live_trading_enabled": false,
   "market_date": "2026-10-12",
   "paper_only": true,
@@ -15,5 +15,5 @@
     "SPY": "Yahoo Finance chart",
     "TLT": "Yahoo Finance chart"
   },
-  "run_at": "2026-10-13T02:39:58.646552+00:00"
+  "run_at": "2026-10-14T00:28:28.983305+00:00"
 }
