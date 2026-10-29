@@ -1,12 +1,12 @@
 {
   "audit": {
     "ok": true,
-    "records": 59,
-    "tip": "2b030cc5865bc95ffd93413208d6a9bc7a5d747bc2d0cbbd9b97b4976407627d"
+    "records": 60,
+    "tip": "0d2d1eb5ff09c7196a1b2cb6a4c289d26ca13dfb569076912337fbf356af1ce8"
   },
   "duplicate_market_day": false,
   "live_trading_enabled": false,
-  "market_date": "2026-10-26",
+  "market_date": "2026-10-27",
   "paper_only": true,
   "providers": {
     "GLD": "Yahoo Finance chart",
@@ -15,5 +15,5 @@
     "SPY": "Yahoo Finance chart",
     "TLT": "Yahoo Finance chart"
   },
-  "run_at": "2026-10-28T00:39:10.804743+00:00"
+  "run_at": "2026-10-29T01:08:16.462517+00:00"
 }
