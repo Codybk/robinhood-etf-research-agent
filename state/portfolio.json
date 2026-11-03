@@ -1,5 +1,5 @@
 {
-  "cash": 5403.571820190431,
+  "cash": 7445.820265716555,
   "equity_history": [
     {
       "cash": 3182.5487884521485,
@@ -210,16 +210,15 @@
       "cash": 5403.571820190431,
       "date": "2026-10-29",
       "equity": 9857.671856811525
+    },
+    {
+      "cash": 7445.820265716555,
+      "date": "2026-11-02",
+      "equity": 9702.120192474367
     }
   ],
-  "last_market_date": "2026-10-29",
+  "last_market_date": "2026-11-02",
   "positions": {
-    "QQQ": {
-      "cost": 2114.256673278808,
-      "opened": "2026-10-23",
-      "paper_entry_price": 704.7522244262694,
-      "shares": 3
-    },
     "SPY": {
       "cost": 2297.1080019836427,
       "opened": "2026-08-25",
@@ -415,6 +414,16 @@
       "reason": "6/10 independent technique families passed; ranked by family agreement then momentum",
       "shares": 3,
       "side": "PAPER_BUY",
+      "symbol": "QQQ"
+    },
+    {
+      "date": "2026-11-02",
+      "market_price": 681.0900268554688,
+      "paper_pnl": -72.00822775268489,
+      "paper_price": 680.7494818420411,
+      "reason": "independent confirmation fell to 3/10 families; 20-day momentum reached -9.9%",
+      "shares": 3,
+      "side": "PAPER_SELL",
       "symbol": "QQQ"
     }
   ]
