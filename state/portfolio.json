@@ -1,5 +1,5 @@
 {
-  "cash": 7445.820265716555,
+  "cash": 9643.720765716555,
   "equity_history": [
     {
       "cash": 3182.5487884521485,
@@ -225,17 +225,15 @@
       "cash": 7445.820265716555,
       "date": "2026-11-04",
       "equity": 9746.250258392336
+    },
+    {
+      "cash": 9643.720765716555,
+      "date": "2026-11-05",
+      "equity": 9643.720765716555
     }
   ],
-  "last_market_date": "2026-11-04",
-  "positions": {
-    "SPY": {
-      "cost": 2297.1080019836427,
-      "opened": "2026-08-25",
-      "paper_entry_price": 765.7026673278808,
-      "shares": 3
-    }
-  },
+  "last_market_date": "2026-11-05",
+  "positions": {},
   "trades": [
     {
       "date": "2026-08-25",
@@ -435,6 +433,16 @@
       "shares": 3,
       "side": "PAPER_SELL",
       "symbol": "QQQ"
+    },
+    {
+      "date": "2026-11-05",
+      "market_price": 733.0,
+      "paper_pnl": -99.20750198364249,
+      "paper_price": 732.6335,
+      "reason": "20-day momentum reached -5.3%",
+      "shares": 3,
+      "side": "PAPER_SELL",
+      "symbol": "SPY"
     }
   ]
 }
